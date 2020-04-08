@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+.third{
+  float: left;
+  width: 30% ;
+  margin: 5px ;
+}
+
+body {
+  font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  background-image: url(H.png);
+  background-position: center bottom;
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  text-size:4em;
+}
+
+h4 {
+  line-height:0em;
+}
+
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  font-size: 70%;
+  right: 10px;
+  color: gray ;
+  font-style: italic ;
+}
+
+.remark-inline-code {
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+  background-color: #f3f3f388;
+  border: 1px solid #c8c8c8;
+  padding: 0 1px;
+}
+
+.remark-code-line-highlighted     {
+  background-color: #ffff88;
+}
+
+.remark-slide-content h1 {
+    font-size: 80px;
+}
+
+.remark-slide-content h2 {
+    font-size: 60px;
+}
+
+.remark-slide-content h3 {
+    font-size: 35px;
+    line-height: 1em;
+}
+
+.remark-slide-content{
+  padding: 1em 2em 1em 2em ;
+}
+
+.remark-slide-content title-slide {
+    padding: 2em 8em 3em 6em;
+}
+
+.remark-slide-content title-slide h1 {
+    font-size: 100px;
+}
+
+
+.remark-slide-content title-slide h2 {
+    font-size: 80px;
+}
+
+.inverse {
+  background-color:#FFFFFF;
+  background-image: url(H.png);
+  background-position-y: 18em;
+  color: #000000;
+  text-shadow:unset;
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #000000;
+  line-height: 1.0em;
+  text-align:right;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
+
+img, video, iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  width:100%;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 3px; }
+thead, tfoot, tr:nth-child(even) { background: #eee }
+
+@page { margin: 0; }
+@media print {
+  @page { margin: 0; }
+  body { margin: 1.6cm; }
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+div .logohome {
+
+background: url("logo.png") no-repeat;
+height: 168px;
+background-size: contain;
+position:absolute;
+left:0%;top:0%;
+margin-left:10px;margin-top:10px;
+z-index: 9999999;width: 100%;
+
+
+}
+/* customisation thinkr */
+.remark-slide-number {
+  position: absolute ;
+  left: 0px ;
+  right: 0px ;
+  font-size: small ;
+  z-index: 100 ;
+  border-top: 1px solid gray ;
+  padding: 10px ;
+  background: white ;
+  opacity: .7 ;
+  bottom: 0 ;
+}
+
+.remark-slide-number-left {
+  background:url("logoT.png") no-repeat left top;
+  background-size:15px;
+  float: left;
+  margin-left: 1em;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 10px ;
+  left: 10px ;
+  color: gray ;
+  z-index: 200 ;
+  font-size: small ;
+}
+.remark-slide-number-right {
+  float: right;
+  margin-right: 2em;
+}
+.remark-slide-number-right a{
+  color: inherit ;
+  font-family: monospace ;
+}
+
+.top_right{
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+  width: 80px ;
+  opacity: .9 ;
+}
+
+.contact-slide a {
+  text-decoration: none ;
+}
+
+.question {
+  background-color: #FFFFFF;
+  background-image: url(H.png);
+  background-position-y: -8em;
+}
+
+.question pre {
+  white-space: pre-wrap;
+}
+
+.slide{
+  background-color: #FFFFFF;
+  background-image: url(H.png);
+  background-position-y: -8em;
+}
+
+.no-margin p, .no-margin img {
+  margin: 0;
+}
+
+/* coloration syntaxique highlight */
+
+pre {
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+  margin: 0.5em 0 0 0;
+  padding: 3px ;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+code{
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
+
+.rcode-input {
+  border: 1px solid #c8c8c8 ;
+  background-color: #f3f3f388 ;
+  font-size: 18px ;
+}
+
+.rcode-output {
+  font-size: 16px ;
+  color: #444444 ;
+  background-color: #ffffff88 ;
+}
+
+.number{
+	color: rgb(21,20,181) ;
+}
+
+.functioncall{
+	color: red ;
+}
+
+.string{
+	color: rgb(153,153,255) ;
+}
+
+.keyword{
+	color: black;
+}
+
+.argument{
+	color: rgb( 177,63,5) ;
+}
+
+.comment{
+	color: rgb(150, 150, 150) ;
+}
+
+.roxygencomment{
+	color: rgb(0,151,255);
+}
+
+.formalargs{
+	color: rgb(18,182,18);
+}
+
+.eqformalargs{
+	color: rgb(18,182,18);
+}
+
+.assignement{
+	color: rgb(55,55,98);
+}
+
+.package{
+	color: rgb(150,182,37);
+}
+
+.slot{
+	font-style:italic;
+}
+
+.symbol{
+	color: black ;
+}
+
+.prompt{
+	color: black ;
+}
+
+.line{
+    color: gray ;
+}
+
+.magrittr_pipe{
+	color: black;
+}
+.base_package{}
+.tidyverse_package{}
+.recommended_package{}
+
+.focus{
+  background-color: yellow ;
+}
+
+.logo{
+  background-color: yellow ;
+  background-image: url(logo.png);
+}
+.remark-container{
+  background: transparent !important;
+}
